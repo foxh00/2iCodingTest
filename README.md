@@ -1,2 +1,6 @@
 # 2iCodingTest
-A coding challenge for 2i mock interview.
+A coding challenge for 2i mock interview. This is a Python-based guessing game, using random variables, booleans, else/if statements, and while loops. This was started at 21:00 on Tuesday, Jan 7 2025.
+An issue I ran into while coding this game was making sure that a player would not be able to guess a number outside the range without an error, so I created a function which defined the range of numbers in the range I wanted. I used randint in order to generate the number, with a range of 1 to 100.
+I then printed the title of the game and a short description of the game to create an easily understood and simple user interface.
+For the gameplay, I used a simple while loop, and made sure to account for errors (EG: The player typing "1000" or "pie"). I slightly reordered the code while working, and commented my code as I wrote.
+When finished, I began debugging and testing the program, I faced issues with syntax (formatted the else statement incorrectly) and incorrectly capitalised the randint function. I played through the game multiple times, both correctly and incorrectly, in order to make sure that the game worked as intended. I had extra time so I added a simple tally feature using guesses += 1, and added that to the while loop so that when the game ended, it would print a tally of how many tries it took the player to finish the game.
